@@ -1,0 +1,300 @@
+*{
+    margin: 0 auto;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: #404EED;
+}
+.grade_menu_header{
+    display: grid;
+    background-color: #404EED;
+    grid-template-columns: 3fr 7fr 3fr;
+    padding-top: 1.5% ;
+    max-width: 1260px;
+    min-height: 80px;
+}
+.menu{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+    grid-row-gap: 1%;
+    grid-column-gap: 8%;
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2%;
+    color: white;
+}
+#entrar{
+    display:grid;
+    text-align: right;
+    grid-row-gap: 1%;
+    grid-column-gap: 8%;
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    padding: 4%;
+    background-color: white;
+    margin-bottom: 14% ;
+    border-radius: 28px;
+    border: 1%;
+}
+.texto_header{
+    background-color: #404EED;
+    text-align: center;
+    color:white;
+    position:relative;
+}
+.texto_imagem{
+    display: grid;
+    grid-row-gap: 15%;
+    position:absolute;
+    bottom: 45%;
+    left: 30%;
+}
+.grade_texto{
+    max-width: 616px;
+    min-width: 272.03px;
+    min-height: 73px;
+    max-height: 181.84px;
+    font-size: 1.05rem;
+}
+#disc_2{
+    width: 100%;
+}
+.baixar{
+    grid-template-columns: 1fr 5fr;
+    display: grid;
+    background-color: white;
+    color: black;
+    width: 120%;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 28px ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.texto_baixar{
+    padding-top:8%;
+}
+#icone{
+    padding-top: 30%;
+    padding-bottom: 30%;
+}
+.grade_opção{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-column-gap: 3%;
+    padding-left: 10%;
+}
+.abra{
+    background-color: #23272a;
+    color: white;
+    text-align: center;
+    padding-top: 4.15%;
+    width: 80%;
+    box-sizing: border-box;
+    border-radius: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.grade_div2{
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    background-color: white;
+    color: black;
+    padding-top: 7%;
+    max-width: 1260px;
+    padding-bottom: 5%;
+}
+.grade_texto_2{
+    display:grid;
+    max-width: 380px;
+    text-align: left ;
+}
+.espaço{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.75rem;
+    padding-bottom: 0 auto;
+}
+.texto_espaço{
+    padding-top: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.0rem;
+}
+.grade_fácil{
+    background-color: #f6f6f6;
+    color: black;
+    padding-top: 7%;
+    padding-bottom: 5%;
+}
+.grade_texto_3{
+    display:grid;
+    max-width: 380px;
+    text-align: right ;
+}
+.fácil{
+    padding-top: 15%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.75rem;
+    padding-bottom: 0 auto;
+    text-align: left;
+}
+.texto_fácil{
+    padding-bottom: 25%;
+    padding-top: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.0rem;
+    text-align: left;
+}
+.limitador{
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    max-width: 1228px;
+}
+.grade_div4{
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    background-color: white;
+    color: black;
+    padding-top: 7%;
+    max-width: 1260px;
+    padding-bottom: 5%;
+}
+.grade_coach{
+    display:grid;
+    max-width: 380px;
+    text-align: left ;
+}
+.coach{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.75rem;
+    padding-bottom: 0 auto;
+    padding-top: 15%;
+}
+.texto_coach{
+    padding-bottom: 25%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.0rem;
+}
+.grade_tech{
+    background-color: #f6f6f6;
+    color: black;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+}
+.limitador_tech{
+    max-width: 1260px;
+    min-width: 1096.51;
+}
+.grade_texto_tech{
+    max-width: 980px;
+    padding-bottom: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.0rem;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.baixar_final{
+    grid-template-columns: 1fr 3fr;
+    display: grid;
+    background-color: #5865f2;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 28px ;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    max-width: 275.19px;
+}
+.texto_baixar_final{
+    padding-top:2%;
+    padding-right: 20%;
+}
+#icone_2{
+    padding-left: 10%;
+}
+#img_jornada{
+    padding-top: 8%;
+    padding-bottom: 2%;
+}
+.grade_finaliza{
+    background-color: #23272a;
+}
+.limitador_finaliza{
+    max-width:1792.22 px ;
+    min-height: 510.8 px;
+    display: grid;
+    text-align: center;
+}
+.finaliza{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    padding-left: 20%;
+    padding-top: 4%;
+    padding-right: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+}
+.grade_letras{
+    display: grid;
+    padding-left: 5%;
+    padding-top: 2%;
+}
+.gerencia{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 20%;
+}
+.branco1{
+    display: grid;
+    color: white;
+    text-align: left;
+    
+}
+.branco2{
+    display: grid;
+    color: white;
+    text-align: left;
+    
+}
+.branco3{
+    display: grid;
+    color: white;
+    text-align: left;
+    
+}
+.branco4{
+    display: grid;
+    color: white;
+    text-align: left;
+}
+.azul{
+    color:#5865f2
+}
+.linha{
+    text-align: center;
+}
+.grade_pre_footer{
+    display: grid;
+    background-color: #23272a;
+    grid-template-columns: 3fr 7fr 3fr;
+    padding-top: 1.5% ;
+    max-width: 1260px;
+    min-height: 80px;
+}
+#registrar{
+    display:grid;
+    text-align: right;
+    grid-row-gap: 1%;
+    grid-column-gap: 8%;
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 4%;
+    background-color: #5865f2;
+    margin-bottom: 14% ;
+    border-radius: 28px;
+    border: 1% ;
+}
